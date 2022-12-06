@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-undef
 module.exports = {
+  globals: {
+    MyGlobal: true
+  },
   extends: [
     'eslint:recommended'
   ],
