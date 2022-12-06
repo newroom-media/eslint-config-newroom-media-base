@@ -49,15 +49,15 @@ module.exports = {
     "padded-blocks": ["error", "never"],
     "padding-line-between-statements": [
       "error",
-      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
+      { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"] }
     ],
     "prefer-const": "error",
     "prefer-object-spread": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
     "rest-spread-spacing": "error",
-    "semi-spacing": ["error", {"before": false, "after": true }],
+    "semi-spacing": ["error", { "before": false, "after": true }],
     "space-in-parens": ["error", "never"],
     "space-unary-ops": ["error", { "words": true, "nonwords": false }],
     "spaced-comment": ["error", "always"],
