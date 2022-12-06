@@ -1,6 +1,8 @@
 {
   "name": "eslint-config-newroom-media-base",
   "version": "0.1.0",
+  "license": "MIT",
+  "author": "Kevin Rüter <kevin.rueter@newroom-media.de>",
   "description": "ESLint base config for Newroom Media projects",
   "main": "index.js",
   "scripts": {
@@ -15,8 +17,6 @@
     "config",
     "newroommedia"
   ],
-  "author": "Kevin Rüter <kevin.rueter@newroom-media.de>",
-  "license": "MIT",
   "homepage": "https://github.com/kerueter/eslint-config-newroom-media-base#readme",
   "devDependencies": {
     "eslint-plugin-import": "^2.26.0",
