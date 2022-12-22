@@ -18,7 +18,7 @@ Example:
 {
   "extends": [
     // Additional per-project extensions...
-    "@newroom-media/eslint-config/base"
+    "@newroom-media/eslint-config-base"
   ],
   "rules": {
     // Additional per-project rules...
