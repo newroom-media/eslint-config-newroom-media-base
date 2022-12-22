@@ -4,10 +4,15 @@
 
 ## Installation
 
+npm:
 ```
 $ npm install --save-dev @newroom-media/eslint-config-base
 ```
 
+yarn:
+```
+$ yarn add -D @newroom-media/eslint-config-base
+```
 
 ## Usage
 
