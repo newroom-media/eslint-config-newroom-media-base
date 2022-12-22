@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-newroom-media-base",
+  "name": "@newroom-media/eslint-config-base",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Kevin Rüter <kevin.rueter@newroom-media.de>",
@@ -10,20 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kerueter/eslint-config-newroom-media-base.git"
+    "url": "git+https://github.com/newroom-media/eslint-config-newroom-media-base.git"
   },
   "keywords": [
     "eslint",
     "config",
+    "eslintconfig",
     "newroommedia"
   ],
-  "homepage": "https://github.com/kerueter/eslint-config-newroom-media-base#readme",
+  "homepage": "https://github.com/newroom-media/eslint-config-newroom-media-base#readme",
   "devDependencies": {
+    "eslint": "^8.26.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-prefer-arrow": "^1.2.3"
   },
   "peerDependencies": {
-    "eslint": "^8.26.0"
+    "eslint": ">= 8.26.0",
+    "eslint-plugin-import": ">= 2.26.0",
+    "eslint-plugin-jsdoc": ">= 39.6.4",
+    "eslint-plugin-prefer-arrow": ">= 1.2.3"
   }
 }
